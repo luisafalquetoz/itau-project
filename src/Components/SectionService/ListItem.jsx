@@ -1,6 +1,6 @@
 import * as C from "./style";
 
-export const ListIten = ({img, alt, p}) => {
+export const ListIten = ({p, img, alt}) => {
     return (
         <>
             <C.Mascara>

@@ -1,5 +1,3 @@
-import React from "react";
-
 import * as C from "./style";
 
 import AppleStore from "../../assets/btn-apple-store.svg";

@@ -4,6 +4,7 @@ export const Section = styled.section `
     width: 100%;
     height: 965px;
     padding-top: 128px;
+    position: relative;
 `; 
 
 export const Container = styled.div `
@@ -19,7 +20,6 @@ export const Container = styled.div `
 export const ContainerLeft = styled.div `
     flex: 1;
     max-width: 594px;
-    flex-direction: column;
 
     span {
         display: block;

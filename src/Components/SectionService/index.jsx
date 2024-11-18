@@ -1,4 +1,3 @@
-import React from "react";
 import * as C from "./style";
 import {ListIten} from "./ListItem"
 
@@ -16,29 +15,21 @@ export const SectionSevice = () => {
                 <C.ContainerLeft>
                     <span>Serviços exclusivos</span>
                     <h2>Gerencie suas finanças sem sair de casa</h2>
-                    <C.P>Veja como você pode cuidar das suas finanças pelo App Itaú de forma segura, rápida e o melhor, no conforto da sua casa.</C.P>
+                    <C.P>
+                        Veja como você pode cuidar das suas finanças pelo App Itaú de forma segura, rápida e o melhor, no conforto da sua casa.
+                    </C.P>
                     <C.Ul>
                         <C.Li>
-                            <ListIten 
-                                img={Phone}
-                                alt="Ícone telefone"
-                                p="Acompanhar sua conta, fazer transferência e pagamentos de onde estiver."
-                            />
-                            <ListIten
-                                img={Money}
-                                alt="Ícone empréstimo"
-                                p="Soluções de empréstimos e negociação para organizar suas finanças."
-                            />
-                            <ListIten
-                                img={Investment}
-                                alt="Ícone investidor"
-                                p="Diversas opções de investimentos, de acordo com o seu perfil de investidor."
-                            />
-                            <ListIten
-                                img={Card}
-                                alt="Ícone cartão"
-                                p="Acompanhe a fatura do seu cartão de crédito e faça compras online com o seu cartão virtual."
-                            />
+                            <ListIten img={Phone} alt="Ícone telefone" p="Acompanhar sua conta, fazer transferência e pagamentos de onde estiver."/>
+                        </C.Li>
+                        <C.Li>
+                            <ListIten img={Money} alt="Ícone empréstimo" p="Soluções de empréstimos e negociação para organizar suas finanças."/>
+                        </C.Li>
+                        <C.Li>
+                            <ListIten img={Investment} alt="Ícone investidor" p="Diversas opções de investimentos, de acordo com o seu perfil de investidor."/>
+                        </C.Li>
+                        <C.Li>
+                            <ListIten img={Card} alt="Ícone cartão" p="Acompanhe a fatura do seu cartão de crédito e faça compras online com o seu cartão virtual."/>
                         </C.Li>
                     </C.Ul>
                 </C.ContainerLeft>
